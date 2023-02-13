@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mission 6_dredd3", "Mission 6_dredd3\Mission 6_dredd3.csproj", "{73903D8A-77D1-44B0-916A-2604CA50D684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73903D8A-77D1-44B0-916A-2604CA50D684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73903D8A-77D1-44B0-916A-2604CA50D684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73903D8A-77D1-44B0-916A-2604CA50D684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73903D8A-77D1-44B0-916A-2604CA50D684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {99473F20-576A-49D3-BE61-D1F2F9C2F0F9}
+	EndGlobalSection
+EndGlobal
