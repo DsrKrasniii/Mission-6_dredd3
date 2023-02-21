@@ -20,8 +20,16 @@
     <input id="Yr" asp-for="Year" /><br />
     <label asp-for="Director">Director</label>
     <input id="Dir" asp-for="Director" /><br />
-    <label asp-for="Category">Category</label>
-    <input id="Cat" asp-for="Category" /><br />
+
+    <label asp-for="CategoryId">Category</label>
+    <select asp-for="CategoryId" >
+        <option value="">Select A Category</option>
+        @foreach (Category c in ViewBag.Cat)
+            {
+                <option value="@c.CategoryId">@c.CategoryName</option>
+            }
+    </select><br />
+
     <label asp-for="Edited">Edited</label>
     <input type="checkbox" id="Ed" asp-for="Edited" /><br />
     <label asp-for="LentTo">Lent To</label>

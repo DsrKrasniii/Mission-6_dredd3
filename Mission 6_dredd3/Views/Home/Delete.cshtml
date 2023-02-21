@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Delete Entry";
+}
+
+@model MoveEntryModel.Models.MovieEntry;
+
+<h2>Are you sure you want to Delete this record for @Model.Title ?</h2>
+
+<form method="post" asp-action="Delete">
+    <button type="submit">Delete</button><br />
+    <a asp-controller="Home" asp-action="MovieView" class="btn btn-primary">Cancel</a>
+    <input type="hidden" asp-for="MovieID"/>
+</form>
